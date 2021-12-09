@@ -1,49 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
+*{
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #FCD34D;
-    --dark-gray: #6B7280;
+    --btn-color: #FDE68A;
+    /* --dark-gray: #6B7280;
     --off-white: #F3F4F6;
     --blue: #2563EB;
+ */
+    --width-break: 600px;
 }
-
-.navigation-container {
-    background-color: var(--primary-color);
-    color: black;
-    padding: 2rem 4rem;
-}
-
-.nav-brand {
-    font-weight: bold;
+.container {
     font-size: 2.5rem;
-    text-align: center;
+    text-align: center
 }
+.navigation {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    font-weight: bold;
+    border-radius: 1rem 2rem;
 
+}
 textarea {
+    box-sizing: border-box;
     width: 80%;
     height:10vh;
     display: block;
-    margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    margin:2rem 0rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #output {
     border: 1px solid black;
+    box-sizing: border-box;
     height: 10vh;
     width: 80%;
-    margin: 1rem;
     padding: 1rem;
+    
 }
 
-.btn {
+#btn-translate {
+    background-color: var(--btn-color);
+    padding: 1rem 2rem;
+    margin-left: 42%
+}
+#btn-translate:hover,btn-translate:focus {
     background-color: var(--primary-color);
-    color: black;
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem;
     text-align: center;
-    color: black;
-    border-top-right-radius: 1rem ;
+    display: block;
+    border-radius: 1rem 2rem;
 }
