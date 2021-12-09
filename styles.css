@@ -42,7 +42,8 @@ textarea {
 #btn-translate {
     background-color: var(--btn-color);
     padding: 1rem 2rem;
-    margin-left: 42%
+    margin-left: 42%;
+    cursor: pointer;
 }
 #btn-translate:hover,btn-translate:focus {
     background-color: var(--primary-color);
