@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+:root {
+    --primary-color: #FCD34D;
+    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+    --blue: #2563EB;
+}
+
+.navigation-container {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 2rem 4rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height:10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem ;
+}
