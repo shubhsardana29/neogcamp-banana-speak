@@ -9,6 +9,12 @@
  */
     --width-break: 600px;
 }
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    margin:0;
+}
+
 .container {
     font-size: 2.5rem;
     text-align: center
@@ -58,9 +64,8 @@ textarea {
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
-    width: 100%;
     background-color: var(--primary-color);
     padding: 1rem;
     text-align: center;
