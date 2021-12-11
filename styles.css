@@ -5,46 +5,51 @@
     --btn-color: #FDE68A;
     /* --dark-gray: #6B7280;
     --off-white: #F3F4F6;
-    --blue: #2563EB;
- */
-    --width-break: 600px;
+*/
+    --blue: #0E49B5;
+ 
 }
 
 body{
     font-family: 'Architects Daughter', cursive;
-    margin:0;
+    margin:0px;
+    box-sizing: border-box;
 }
 
-.container {
-    font-size: 2.5rem;
-    text-align: center
-}
+
 .navigation {
     background-color: var(--primary-color);
-    padding: 2rem;
-    font-weight: bold;
-    border-radius: 1rem 2rem;
-    margin:auto;
-
+    color:var(--blue);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
 }
-textarea {
-    box-sizing: border-box;
-    width: 80%;
+.navigation small {
+    font-size:1rem;
+}
+#txt-input {
+    border: 1px solid black;
+    width: 60%;
     height:15vh;
     display: block;
-    padding: 2rem;
-    margin:3rem 0rem;
+    padding: 1rem;
+    margin:3rem auto;
+    border-radius: 1rem;
+    font-size: 20px;
+}
+.btn {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #btn-translate {
     background-color: var(--btn-color);
-    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
     cursor: pointer;
-    margin: 0px 550px;
+    padding: 1rem;
 }
+
 #btn-translate:hover,btn-translate:focus {
     background-color: var(--primary-color);
 }
@@ -52,21 +57,19 @@ textarea {
 
 #translate-output {
     border: 1px solid black;
-    box-sizing: border-box;
-    display:block;
     height: 15vh;
-    width: 80%;
-    padding: 2rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
+    width: 60%;
+    padding: 1rem;
+    margin:3rem auto;
+    border-radius: 1rem;
+    font-size: 20px;
+    
 }
 
 .footer {
-    /* position: fixed; */
     bottom: 0;
     background-color: var(--primary-color);
+    color: var(--blue);
     padding: 1rem;
     text-align: center;
     display: block;
@@ -80,4 +83,16 @@ textarea {
 }
 .para {
     font-size: large;
+}
+
+img {
+    width: 80px;
+    height: 90px;
+}
+h3 {
+    color:var(--blue);
+}
+
+h1{
+    font-size:3rem;
 }
